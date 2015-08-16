@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server-dev.js",
-    "deploy": "NODE_ENV=production webpack -p --output-path='static'"
+    "deploy": "NODE_ENV=production webpack -p --output-path='static'",
+    "forever": "forever start --spinSleepTime 10000 main.js"
   },
   "author": "Simon B. Støvring",
   "license": "MIT",
