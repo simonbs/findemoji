@@ -3,7 +3,7 @@
 Smileyordningen er kedelig. Emojiordningen er sjovere. Søg efter restauranter og find en emoji, som paser til restaurantens hygiejne.
 
 | Emoji | Betydning |
-|----|---------------------------------------|
+|:--:|---------------------------------------|
 | 😃 | Ingen anmærkninger                    |
 | 😐 | Restauranten har modtaget en advarsel |
 | 😡 | Restauranten har dårlig hygiejne      |
@@ -18,4 +18,4 @@ Kør i development environment med `npm run dev` og i production environment med
 
 ## Om
 
-Appen bruger [Redux'](https://github.com/rackt/redux) dialekt af [Flux arkitekturen] og [React](http://facebook.github.io/react/) til view-laget.
+Appen bruger [Redux'](https://github.com/rackt/redux) dialekt af [Flux arkitekturen](http://facebook.github.io/flux/) og [React](http://facebook.github.io/react/) til view-laget.
