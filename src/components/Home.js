@@ -18,7 +18,7 @@ class Home extends React.Component {
     return (
       <div>
         <Search value={latestQuery}
-                placeholder="Search for a restaurant"
+                placeholder="Søg efter en restaurant"
                 isFetching={isFetching}
                 onChange={this.handleSearchChange} />
         {this.renderContent()}

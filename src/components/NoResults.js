@@ -7,9 +7,9 @@ export default class NoResults extends React.Component {
       <div className="container">
         { (() => {
           if (query != null) {
-            return "No results were found for the query '" + query + "'."
+            return "Ingen resultater fundet for søgningen '" + query + "'."
           } else {
-            return "No results were found."
+            return "Ingen resultater funder."
           }
          })()
         }
