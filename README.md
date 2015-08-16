@@ -16,7 +16,8 @@ Smileyordningen er kedelig. Emojiordningen er sjovere. Søg efter restauranter o
 ## Kør
 
 Installer afhængigheder med `npm install`.
-Kør i development environment med `npm run dev` og i production environment med `npm start` eller `npm run forever` afhængig af, om du ønsker at envende [forever](https://github.com/foreverjs/forever) eller ej.
+
+Kør i development environment med `npm run dev` og i production environment med `npm start` eller `npm run forever` afhængig af, om du ønsker at anvende [forever](https://github.com/foreverjs/forever) eller ej.
 
 ## Om
 
