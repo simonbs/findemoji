@@ -1,0 +1,52 @@
+@import './globals';
+@import './mixins/selection';
+
+ul.restaurants {
+    @include selection(none);
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+        height: $searchBarHeight;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+        padding-right: $searchBarHeight;
+
+        .emoji {
+            width: $searchBarHeight;
+            height: $searchBarHeight;
+            line-height: $searchBarHeight;
+            text-align: center;
+            font-size: $searchBarHeight * 0.80;
+            float: left;
+            padding-top: 2px;
+            cursor: default;
+        }
+        
+        .texts {
+            @include selection(text);
+            height: $searchBarHeight;
+
+            .text {
+                height: 50%;
+                line-height: $searchBarHeight / 2;
+            }
+
+            .title {               
+                color: $primaryColor;
+                font-weight: bold;
+            }
+
+            .detail {
+                color: $secondaryColor;
+            }
+        }
+    }
+
+    li:nth-child(odd) {
+        background: $alternateBackgroundColor;
+    }
+
+}
+

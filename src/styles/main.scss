@@ -1,0 +1,18 @@
+@import './globals';
+
+body {
+    font-family: $fontFamily;
+    background-color: $backgroundColor;
+    margin: 0;
+}
+
+.container {
+    padding: $searchBarHeight;
+    text-align: center;
+    color: $secondaryColor;
+    font-size: 1.2em;
+}
+
+.bold {
+    font-weight: bold;
+}

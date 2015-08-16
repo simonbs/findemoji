@@ -1,0 +1,5 @@
+@mixin no-focus {
+    &:focus {
+        outline: none;
+    }
+}

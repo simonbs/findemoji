@@ -1,0 +1,36 @@
+@import './mixins/placeholder';
+@import './mixins/no-focus';
+@import './mixins/opacity';
+@import './mixins/selection';
+@import './globals';
+
+.search {
+    @include selection(none);
+    width: 100%;
+    background-color: $secondaryColor;
+    height: $searchBarHeight;
+
+    .field {
+        @include no-focus;
+        @include placeholder {
+            color: $detailColor;
+        }
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        color: $primaryColor;
+        font-size: 2em;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        padding-left: $searchBarHeight;
+        padding-right: $searchBarHeight;
+    }
+
+    span {
+        display: block;
+        overflow: hidden;
+        padding-left: 0px;
+    }
+
+}
