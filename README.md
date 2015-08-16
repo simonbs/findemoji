@@ -2,6 +2,8 @@
 
 Smileyordningen er kedelig. Emojiordningen er sjovere. Søg efter restauranter og find en emoji, som paser til restaurantens hygiejne.
 
+![Example](https://raw.githubusercontent.com/simonbs/findemoji/master/example.gif?token=AAyuE49TnPsFIwIX1-aEQVg_5YVC2CcEks5V2jFswA%3D%3D)
+
 | Emoji | Betydning |
 |:--:|---------------------------------------|
 | 😃 | Ingen anmærkninger                    |
