@@ -1,0 +1,18 @@
+@import './globals';
+@import './octicons';
+
+.footer {
+    margin-top: 1em;
+    width: 100%;
+    color: $discreetColor;
+    text-align: center;
+
+    span.space {
+        width: 40px;
+        display: inline-block;
+    }
+    
+    a {
+        color: $discreetColor;
+    }
+}

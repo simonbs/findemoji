@@ -18,9 +18,9 @@ module.exports = {
     index
   ],
   output: {
-    path: path.join(__dirname, 'build'),
+    path: path.join(__dirname, 'static'),
     filename: 'bundle.js',
-    publicPath: '/pub/'
+    publicPath: '/static/'
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
@@ -37,7 +37,10 @@ module.exports = {
       include: __dirname
     }, {
       test: /\.s?css$/,
-      loaders: ['style', 'css?sourceMap!', 'sass?sourceMap']
+      loaders: ['style', 'css?sourceMap!', 'sass?sourceMap'],
+    }, {
+      test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
+      loader: 'file-loader'
     }]
   }
 };

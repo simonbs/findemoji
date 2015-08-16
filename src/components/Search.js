@@ -15,8 +15,9 @@ export default class Search extends React.Component {
   
   render() {
     const { placeholder, latestQuery } = this.props;
-    return (
+    return (      
       <div className="search">
+        <div className="magnifying-glass">🔍</div>
         <span>
           <input type="text"
                  ref="input"

@@ -10,6 +10,15 @@
     background-color: $secondaryColor;
     height: $searchBarHeight;
 
+    .magnifying-glass {
+        width: $searchBarHeight;
+        height: 100%;
+        float: left;
+        line-height: $searchBarHeight;
+        text-align: center;
+        font-size: $searchBarHeight * 0.60;
+    }
+
     .field {
         @include no-focus;
         @include placeholder {
@@ -23,7 +32,6 @@
         font-size: 2em;
         padding-top: 0.25em;
         padding-bottom: 0.25em;
-        padding-left: $searchBarHeight;
         padding-right: $searchBarHeight;
     }
 

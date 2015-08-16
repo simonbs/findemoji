@@ -7,13 +7,14 @@
     "start": "node server.js",
     "dev": "node server-dev.js",
     "deploy": "NODE_ENV=production webpack -p --output-path='static'",
-    "forever": "forever start --spinSleepTime 10000 serverjs"
+    "forever": "forever start --spinSleepTime 10000 server.js"
   },
   "author": "Simon B. Støvring",
   "license": "MIT",
   "dependencies": {
     "babel": "^5.8.21",
     "classnames": "^2.1.3",
+    "file-loader": "^0.8.4",
     "finalhandler": "^0.4.0",
     "isomorphic-fetch": "^2.1.1",
     "react": "^0.13.3",
