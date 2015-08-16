@@ -5,7 +5,7 @@ export default class Welcome extends React.Component {
   render() {
     return (
       <div className="container">
-        <span className="bold">Slå op i Fødevarestyrelsens kontrolrapporter og find en emoji, som passer til en restaurants hygiejne.<br /></span><br />
+        <span className="bold">Smileyordningen er kedelig. Emojiordningen er sjovere.<br /></span><br />
         Emojis går fra {emojiForSmileyStatus(SmileyStatus.NoRemarks)} til {emojiForSmileyStatus(SmileyStatus.Critical)}.<br />
         {emojiForEliteStatus(true)} indikerer elitestatus.
       </div>
