@@ -5,7 +5,7 @@ Smileyordningen er kedelig. Emojiordningen er sjovere. Søg efter restauranter o
 ![Example](https://raw.githubusercontent.com/simonbs/findemoji/master/example.gif?token=AAyuE49TnPsFIwIX1-aEQVg_5YVC2CcEks5V2jFswA%3D%3D)
 
 | Emoji | Betydning |
-|:--:|---------------------------------------|
+|:--:|:---------------------------------------|
 | 😃 | Ingen anmærkninger                    |
 | 😐 | Restauranten har modtaget en advarsel |
 | 😡 | Restauranten har dårlig hygiejne      |
