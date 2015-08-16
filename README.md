@@ -5,11 +5,11 @@ Smileyordningen er kedelig. Emojiordningen er sjovere. Søg efter restauranter o
 | Emoji | Betydning |
 |----|---------------------------------------|
 | 😃 | Ingen anmærkninger                    |
-  | 😐 | Restauranten har modtaget en advarsel |
-  | 😡 | Restauranten har dårlig hygiejne      |
-  | 💩 | Noget værre lort.                     |
-  | ❓  | Ingen kontrolrapport tilgængelig.     |
-  | ⭐️  |                                       |
+| 😐 | Restauranten har modtaget en advarsel |
+| 😡 | Restauranten har dårlig hygiejne      |
+| 💩 | Noget værre lort.                     |
+| ❓  | Ingen kontrolrapport tilgængelig.     |
+| ⭐️  |  Restauranten har elitestatus. |
 
 ## Kør
 
