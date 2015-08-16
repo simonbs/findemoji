@@ -17,7 +17,13 @@ Smileyordningen er kedelig. Emojiordningen er sjovere. Søg efter restauranter o
 
 Installer afhængigheder med `npm install`.
 
-Kør i development environment med `npm run dev` og i production environment med `npm start` eller `npm run forever` afhængig af, om du ønsker at anvende [forever](https://github.com/foreverjs/forever) eller ej.
+**Development**
+
+Kør i development environment med `npm run dev`. I development environment anvendes [webpack dev server](http://webpack.github.io/docs/webpack-dev-server.html) og[react-hot-loader](react-hot-loader).
+
+**Production**
+
+Klargør bundle.js med `npm run deploy` og kør med `npm start` eller `npm run forever` afhængig af, om du ønsker at anvende [forever](https://github.com/foreverjs/forever) eller ej.
 
 ## Om
 
