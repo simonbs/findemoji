@@ -9,9 +9,9 @@ Smileyordningen er kedelig. Emojiordningen er sjovere. Søg efter restauranter o
 | 😃 | Ingen anmærkninger                    |
 | 😐 | Restauranten har modtaget en advarsel |
 | 😡 | Restauranten har dårlig hygiejne      |
-| 💩 | Noget værre lort.                     |
-| ❓  | Ingen kontrolrapport tilgængelig.     |
-| ⭐️  |  Restauranten har elitestatus. |
+| 💩 | Noget værre lort                     |
+| ❓  | Ingen kontrolrapport tilgængelig     |
+| ⭐️  |  Restauranten har elitestatus |
 
 ## Kør
 
