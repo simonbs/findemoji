@@ -3,7 +3,7 @@
 Smileyordningen er kedelig. Emojiordningen er sjovere. Søg efter restauranter og find en emoji, som paser til restaurantens hygiejne.
 
 | Emoji | Betydning |
-|----|---------------------------------------|
+|:--:|---------------------------------------|
 | 😃 | Ingen anmærkninger                    |
 | 😐 | Restauranten har modtaget en advarsel |
 | 😡 | Restauranten har dårlig hygiejne      |
